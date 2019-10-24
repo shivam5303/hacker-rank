@@ -6,6 +6,12 @@ int main()
    int x;
    printf("Enter a Number : ");
    scanf("%d",&x);
-   (x & 1)? printf("Odd"): printf("Even"); 
+   if(x%2==0)
+   {
+      printf("even");
+   }
+   else{
+      printf("odd");
+   }
    return 0;
 }
